@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titulo{
+    background-color: rgb(36, 86, 136);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.ancho{
+    max-width: 1300px;
+    margin: auto;
+    border: 1px solid red;
+}
+.rojo{
+    background-color: brown;
+    padding: 15px;
+    color: white;
+    width: 450px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: auto;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+</head>
+<body>
+    <div class="ancho titulo">
+        <h2>Monitoreo Temperatura</h2> <br>
+    </div>
+    <br>
+
+       <div class="ancho contenedor">
+        <div class="rojo"> <h3>Temperatura</h3>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1959606/charts/1?bgcolor=%23E3847A&color=%23FCFF1E&dynamic=true&results=60&title=TEMPERATURA&type=line"></iframe>
+        </div>
+        <div class="rojo"> <h3>Humedad</h3>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1959606/charts/2?bgcolor=%231EFFF1&color=%23d62020&dynamic=true&results=60&title=HUMEDAD&type=line"></iframe>
+        </div>
+        <div class="rojo"> <h3>Centigrados</h3>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1959606/widgets/560904"></iframe>
+        </div>
+        <div class="rojo"><h3>Humedad </h3>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1959606/widgets/560905"></iframe>
+
+        </div>
+       </div> 
+   
+</body>
+</html>
