@@ -14,7 +14,6 @@ body{
 .ancho{
     max-width: 1300px;
     margin: auto;
-    border: 1px solid red;
 }
 .rojo{
     background-color: brown;
